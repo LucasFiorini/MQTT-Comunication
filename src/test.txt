@@ -1,0 +1,20 @@
+{
+  "DCC": [
+    { "room-number": 200,
+      "prof-name": "Raphael",
+      "andar": 2
+    },
+    { "room-number": 201,
+      "prof-name": "Luiz Correa",
+      "andar": 2
+    },
+    { "room-number": 202,
+      "prof-name": "Joaquim",
+      "andar": 2
+    },
+    { "room-number": 100,
+    "prof-name": "Terra",
+      "andar": 1
+    }
+  ]
+}
