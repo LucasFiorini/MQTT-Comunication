@@ -39,10 +39,15 @@ def main():
     while connected != True:
         time.sleep(0.1)
 
-    with open('test.txt') as f:
-        json_data = json.load(f)
+    #with open('test.txt') as f:
+    #    json_data = json.load(f)
 
-    client.publish("MapaDCC",str(json_data))
+    f = open('test.txt', 'r')
+    file_data = f.readline()
+
+    json_data = json.dumps(file_data)
+
+    client.publish("Requisicao",json_data)
 
 
     client.disconnect()
